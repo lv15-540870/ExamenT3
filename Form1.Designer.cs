@@ -31,7 +31,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -54,7 +53,6 @@
             this.archivoToolStripMenuItem.BackColor = System.Drawing.Color.DarkOrange;
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.altaToolStripMenuItem,
-            this.bajaToolStripMenuItem,
             this.registrosToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.archivoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -69,13 +67,6 @@
             this.altaToolStripMenuItem.Size = new System.Drawing.Size(168, 30);
             this.altaToolStripMenuItem.Text = "Alta";
             this.altaToolStripMenuItem.Click += new System.EventHandler(this.altaToolStripMenuItem_Click);
-            // 
-            // bajaToolStripMenuItem
-            // 
-            this.bajaToolStripMenuItem.BackColor = System.Drawing.Color.DarkOrange;
-            this.bajaToolStripMenuItem.Name = "bajaToolStripMenuItem";
-            this.bajaToolStripMenuItem.Size = new System.Drawing.Size(168, 30);
-            this.bajaToolStripMenuItem.Text = "Baja";
             // 
             // registrosToolStripMenuItem
             // 
@@ -117,7 +108,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem altaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bajaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
